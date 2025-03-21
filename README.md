@@ -7,7 +7,6 @@ This project explores **interactive data visualization** using **Altair**, a dec
 - **Exported the visualization as an interactive HTML file**, allowing easy sharing and embedding.
 
 ---
-<img src="https://raw.githubusercontent.com/grill/SI649-hw-interaction/main/zoom_interaction.gif?raw=true" alt="drawing" width="800"/>
 ## **🖼️ Example Interactive Visualization**
 
 - **1️⃣ Visualization 1: Goals of World Cup Winners Since 1950**
@@ -16,12 +15,7 @@ This project explores **interactive data visualization** using **Altair**, a dec
     - Hovering over bars displays the average score as tooltips.
     - Brushing (dragging over bars) changes the opacity of unselected bars.
     - Brushing also updates the average score line, dynamically adjusting to the selected range.
-
-    [Click here to view the interactive Altair chart! 🎉](https://oscar10408.github.io/WorldCup-Interactive_Visualization/chart1.html)
-
-    Or click the preview image below:
-
-    [![World Cup Interactive Chart](output/chart1_preview.png)](https://github.com/oscar10408/WorldCup-Interactive_Visualization/blob/main/chart1.html)
+    <img src="https://raw.githubusercontent.com/grill/SI649-hw-interaction/main/line_hover.gif?raw=true" alt="drawing" width="500"/>
 
 - **2️⃣ Visualization 2: Matchups Between World Cup Winners**
   * Description: A heatmap showing historical matchups between past World Cup winners.
@@ -29,12 +23,7 @@ This project explores **interactive data visualization** using **Altair**, a dec
     - Hovering over a cell highlights the number of times two winning teams played against each other.
     - The color intensity indicates the frequency of matchups.
     - Users can filter by specific World Cup tournaments.
-    
-    [Click here to view the interactive Altair chart! 🎉](https://oscar10408.github.io/WorldCup-Interactive_Visualization/chart2.html)
-
-    Or click the preview image below:
-
-    [![World Cup Interactive Chart](output/chart1_preview.png)](https://github.com/oscar10408/WorldCup-Interactive_Visualization/blob/main/chart2.html)
+    <img src="https://raw.githubusercontent.com/grill/SI649-hw-interaction/main/heat_interaction.gif?raw=true" alt="drawing" width="500"/>
     
 - **3️⃣ Visualization 3: Goal Timing Distribution**
   * Description: A bar chart displaying the distribution of goals scored across different minutes of a match.
@@ -42,12 +31,8 @@ This project explores **interactive data visualization** using **Altair**, a dec
     - Hovering over a bar shows the exact number of goals scored in that minute.
     - Brushing over a time range filters the goal distribution to only show specific periods of the game (e.g., first half vs. second half).
     - A dynamic average goal line updates based on the brushed selection.
+    <img src="https://raw.githubusercontent.com/grill/SI649-hw-interaction/main/linegoal_zoom.gif?raw=true" alt="drawing" width="500"/>
 
-    [Click here to view the interactive Altair chart! 🎉](https://oscar10408.github.io/WorldCup-Interactive_Visualization/chart3.html)
-
-    Or click the preview image below:
-
-    [![World Cup Interactive Chart](output/chart1_preview.png)](https://github.com/oscar10408/WorldCup-Interactive_Visualization/blob/main/chart3.html)
 
 - **4️⃣ Visualization 4: Goal Distribution by Teams**
   * Description: A stacked bar chart comparing goal-scoring patterns for different World Cup-winning teams.
@@ -55,12 +40,7 @@ This project explores **interactive data visualization** using **Altair**, a dec
     - Clicking on a team filters the visualization to show only that team's goals.
     - Hovering over a segment displays goal counts in tooltips.
     - Users can toggle between total goals and percentage-based views for comparison.
-      
-    [Click here to view the interactive Altair chart! 🎉](https://oscar10408.github.io/WorldCup-Interactive_Visualization/chart4.html)
-
-    Or click the preview image below:
-
-    [![World Cup Interactive Chart](output/chart1_preview.png)](https://github.com/oscar10408/WorldCup-Interactive_Visualization/blob/main/chart4.html)
+    <img src="https://raw.githubusercontent.com/grill/SI649-hw-interaction/main/zoom_interaction.gif?raw=true" alt="drawing" width="800"/>
 
 ---
 
