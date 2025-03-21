@@ -19,7 +19,7 @@ This project explores **interactive data visualization** using **Altair**, a dec
     - 
 ## ⚽ Interactive World Cup Visualization  
 
-[Click here to view the interactive Altair chart! 🎉](https://github.com/oscar10408/WorldCup-Interactive_Visualization/blob/main/chart1.html)
+[Click here to view the interactive Altair chart! 🎉](https://oscar10408.github.io/WorldCup-Interactive_Visualization/chart1.html)
 
 Or click the preview image below:
 
