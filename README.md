@@ -19,11 +19,11 @@ This project explores **interactive data visualization** using **Altair**, a dec
     - 
 ## ⚽ Interactive World Cup Visualization  
 
-[Click here to view the interactive Altair chart! 🎉](https://oscar10408.github.io/WorldCup-Interactive_Visualization/chart1.html)
+[Click here to view the interactive Altair chart! 🎉](https://github.com/oscar10408/WorldCup-Interactive_Visualization/blob/main/chart1.html)
 
 Or click the preview image below:
 
-[![World Cup Interactive Chart](output/chart1_preview.png)](https://oscar10408.github.io/WorldCup-Interactive_Visualization/chart1.html)
+[![World Cup Interactive Chart](output/chart1_preview.png)](https://github.com/oscar10408/WorldCup-Interactive_Visualization/blob/main/chart1.html)
 
 - **2️⃣ Visualization 2: Matchups Between World Cup Winners**
   * Description: A heatmap showing historical matchups between past World Cup winners.
