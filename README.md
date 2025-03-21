@@ -16,14 +16,12 @@ This project explores **interactive data visualization** using **Altair**, a dec
     - Hovering over bars displays the average score as tooltips.
     - Brushing (dragging over bars) changes the opacity of unselected bars.
     - Brushing also updates the average score line, dynamically adjusting to the selected range.
-    - 
-## ⚽ Interactive World Cup Visualization  
 
-[Click here to view the interactive Altair chart! 🎉](https://oscar10408.github.io/WorldCup-Interactive_Visualization/chart1.html)
+    [Click here to view the interactive Altair chart! 🎉](https://oscar10408.github.io/WorldCup-Interactive_Visualization/chart1.html)
 
-Or click the preview image below:
+    Or click the preview image below:
 
-[![World Cup Interactive Chart](output/chart1_preview.png)](https://github.com/oscar10408/WorldCup-Interactive_Visualization/blob/main/chart1.html)
+    [![World Cup Interactive Chart](output/chart1_preview.png)](https://github.com/oscar10408/WorldCup-Interactive_Visualization/blob/main/chart1.html)
 
 - **2️⃣ Visualization 2: Matchups Between World Cup Winners**
   * Description: A heatmap showing historical matchups between past World Cup winners.
@@ -31,7 +29,13 @@ Or click the preview image below:
     - Hovering over a cell highlights the number of times two winning teams played against each other.
     - The color intensity indicates the frequency of matchups.
     - Users can filter by specific World Cup tournaments.
+    
+    [Click here to view the interactive Altair chart! 🎉](https://oscar10408.github.io/WorldCup-Interactive_Visualization/chart2.html)
 
+    Or click the preview image below:
+
+    [![World Cup Interactive Chart](output/chart1_preview.png)](https://github.com/oscar10408/WorldCup-Interactive_Visualization/blob/main/chart2.html)
+    
 - **3️⃣ Visualization 3: Goal Timing Distribution**
   * Description: A bar chart displaying the distribution of goals scored across different minutes of a match.
   * Interactivity:
@@ -39,13 +43,24 @@ Or click the preview image below:
     - Brushing over a time range filters the goal distribution to only show specific periods of the game (e.g., first half vs. second half).
     - A dynamic average goal line updates based on the brushed selection.
 
+    [Click here to view the interactive Altair chart! 🎉](https://oscar10408.github.io/WorldCup-Interactive_Visualization/chart3.html)
+
+    Or click the preview image below:
+
+    [![World Cup Interactive Chart](output/chart1_preview.png)](https://github.com/oscar10408/WorldCup-Interactive_Visualization/blob/main/chart3.html)
+
 - **4️⃣ Visualization 4: Goal Distribution by Teams**
   * Description: A stacked bar chart comparing goal-scoring patterns for different World Cup-winning teams.
   * Interactivity:
     - Clicking on a team filters the visualization to show only that team's goals.
     - Hovering over a segment displays goal counts in tooltips.
     - Users can toggle between total goals and percentage-based views for comparison.
+      
+    [Click here to view the interactive Altair chart! 🎉](https://oscar10408.github.io/WorldCup-Interactive_Visualization/chart4.html)
 
+    Or click the preview image below:
+
+    [![World Cup Interactive Chart](output/chart1_preview.png)](https://github.com/oscar10408/WorldCup-Interactive_Visualization/blob/main/chart4.html)
 
 ---
 
