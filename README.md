@@ -7,7 +7,7 @@ This project explores **interactive data visualization** using **Altair**, a dec
 - **Exported the visualization as an interactive HTML file**, allowing easy sharing and embedding.
 
 ---
-
+<img src="https://raw.githubusercontent.com/grill/SI649-hw-interaction/main/zoom_interaction.gif?raw=true" alt="drawing" width="800"/>
 ## **🖼️ Example Interactive Visualization**
 
 - **1️⃣ Visualization 1: Goals of World Cup Winners Since 1950**
