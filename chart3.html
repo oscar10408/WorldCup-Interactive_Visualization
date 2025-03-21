@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}}, "layer": [{"mark": {"type": "line", "size": 2.5}, "encoding": {"x": {"axis": {"grid": true, "labels": true, "tickCount": 10, "title": "Minute"}, "field": "minute", "type": "quantitative"}, "y": {"field": "Goals", "type": "quantitative"}}, "name": "view_64", "title": "Timing of World Cup Goals"}, {"mark": {"type": "point"}, "encoding": {"opacity": {"value": 0}, "x": {"field": "minute", "type": "quantitative"}}, "name": "view_65"}, {"mark": {"type": "point", "size": 90}, "encoding": {"opacity": {"condition": {"param": "param_52", "value": 1, "empty": false}, "value": 0}, "x": {"axis": {"grid": true, "labels": true, "tickCount": 10, "title": "Minute"}, "field": "minute", "type": "quantitative"}, "y": {"field": "Goals", "type": "quantitative"}}, "title": "Timing of World Cup Goals"}, {"mark": {"type": "rule", "color": "lightgray", "size": 4}, "encoding": {"x": {"field": "minute", "type": "quantitative"}}, "transform": [{"filter": {"param": "param_52", "empty": false}}]}, {"mark": {"type": "text", "align": "left", "color": "lightgray", "dx": 7, "fontSize": 14}, "encoding": {"text": {"condition": {"param": "param_52", "empty": false, "field": "Goals", "format": ".2f", "type": "quantitative"}, "value": " "}, "x": {"axis": {"grid": true, "labels": true, "tickCount": 10, "title": "Minute"}, "field": "minute", "type": "quantitative"}, "y": {"field": "Goals", "type": "quantitative"}}, "title": "Timing of World Cup Goals"}], "data": {"name": "data-f6ba08bd0aa20cd3545e1def78bb403e"}, "height": 300, "params": [{"name": "param_51", "select": {"type": "interval", "encodings": ["x"]}, "bind": "scales", "views": ["view_64"]}, {"name": "param_52", "select": {"type": "point", "encodings": ["x"], "nearest": true, "on": "mouseover"}, "views": ["view_65"]}], "width": 800, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-f6ba08bd0aa20cd3545e1def78bb403e": [{"minute": 1, "Goals": 18}, {"minute": 2, "Goals": 19}, {"minute": 3, "Goals": 24}, {"minute": 4, "Goals": 41}, {"minute": 5, "Goals": 34}, {"minute": 6, "Goals": 32}, {"minute": 7, "Goals": 30}, {"minute": 8, "Goals": 33}, {"minute": 9, "Goals": 30}, {"minute": 10, "Goals": 36}, {"minute": 11, "Goals": 39}, {"minute": 12, "Goals": 44}, {"minute": 13, "Goals": 27}, {"minute": 14, "Goals": 30}, {"minute": 15, "Goals": 40}, {"minute": 16, "Goals": 29}, {"minute": 17, "Goals": 42}, {"minute": 18, "Goals": 45}, {"minute": 19, "Goals": 29}, {"minute": 20, "Goals": 36}, {"minute": 21, "Goals": 34}, {"minute": 22, "Goals": 32}, {"minute": 23, "Goals": 37}, {"minute": 24, "Goals": 39}, {"minute": 25, "Goals": 37}, {"minute": 26, "Goals": 37}, {"minute": 27, "Goals": 35}, {"minute": 28, "Goals": 21}, {"minute": 29, "Goals": 44}, {"minute": 30, "Goals": 23}, {"minute": 31, "Goals": 38}, {"minute": 32, "Goals": 30}, {"minute": 33, "Goals": 24}, {"minute": 34, "Goals": 32}, {"minute": 35, "Goals": 38}, {"minute": 36, "Goals": 33}, {"minute": 37, "Goals": 36}, {"minute": 38, "Goals": 41}, {"minute": 39, "Goals": 44}, {"minute": 40, "Goals": 33}, {"minute": 41, "Goals": 19}, {"minute": 42, "Goals": 34}, {"minute": 43, "Goals": 36}, {"minute": 44, "Goals": 46}, {"minute": 45, "Goals": 25}, {"minute": 46, "Goals": 32}, {"minute": 47, "Goals": 28}, {"minute": 48, "Goals": 44}, {"minute": 49, "Goals": 34}, {"minute": 50, "Goals": 50}, {"minute": 51, "Goals": 44}, {"minute": 52, "Goals": 43}, {"minute": 53, "Goals": 34}, {"minute": 54, "Goals": 46}, {"minute": 55, "Goals": 48}, {"minute": 56, "Goals": 40}, {"minute": 57, "Goals": 44}, {"minute": 58, "Goals": 37}, {"minute": 59, "Goals": 35}, {"minute": 60, "Goals": 48}, {"minute": 61, "Goals": 37}, {"minute": 62, "Goals": 42}, {"minute": 63, "Goals": 34}, {"minute": 64, "Goals": 36}, {"minute": 65, "Goals": 43}, {"minute": 66, "Goals": 41}, {"minute": 67, "Goals": 45}, {"minute": 68, "Goals": 43}, {"minute": 69, "Goals": 46}, {"minute": 70, "Goals": 40}, {"minute": 71, "Goals": 40}, {"minute": 72, "Goals": 31}, {"minute": 73, "Goals": 53}, {"minute": 74, "Goals": 32}, {"minute": 75, "Goals": 59}, {"minute": 76, "Goals": 42}, {"minute": 77, "Goals": 26}, {"minute": 78, "Goals": 46}, {"minute": 79, "Goals": 45}, {"minute": 80, "Goals": 53}, {"minute": 81, "Goals": 51}, {"minute": 82, "Goals": 47}, {"minute": 83, "Goals": 50}, {"minute": 84, "Goals": 41}, {"minute": 85, "Goals": 45}, {"minute": 86, "Goals": 30}, {"minute": 87, "Goals": 37}, {"minute": 88, "Goals": 48}, {"minute": 89, "Goals": 52}, {"minute": 90, "Goals": 41}, {"minute": 91, "Goals": 1}, {"minute": 92, "Goals": 3}, {"minute": 93, "Goals": 6}, {"minute": 94, "Goals": 4}, {"minute": 95, "Goals": 1}, {"minute": 96, "Goals": 1}, {"minute": 97, "Goals": 1}, {"minute": 98, "Goals": 5}, {"minute": 99, "Goals": 1}, {"minute": 101, "Goals": 3}, {"minute": 102, "Goals": 3}, {"minute": 103, "Goals": 1}, {"minute": 104, "Goals": 6}, {"minute": 105, "Goals": 4}, {"minute": 106, "Goals": 1}, {"minute": 107, "Goals": 2}, {"minute": 108, "Goals": 6}, {"minute": 109, "Goals": 2}, {"minute": 110, "Goals": 2}, {"minute": 111, "Goals": 5}, {"minute": 113, "Goals": 1}, {"minute": 114, "Goals": 1}, {"minute": 115, "Goals": 4}, {"minute": 116, "Goals": 3}, {"minute": 117, "Goals": 4}, {"minute": 118, "Goals": 4}, {"minute": 119, "Goals": 2}, {"minute": 120, "Goals": 2}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
