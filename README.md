@@ -16,7 +16,7 @@ This project explores **interactive data visualization** using **Altair**, a dec
     - Hovering over bars displays the average score as tooltips.
     - Brushing (dragging over bars) changes the opacity of unselected bars.
     - Brushing also updates the average score line, dynamically adjusting to the selected range.
-[Click here to explore the interactive Altair visualization](https://github.com/oscar10408/WorldCup-Interactive_Visualization/blob/main/chart1.html)
+[Click here to view the interactive Altair chart! 🎉](https://oscar10408.github.io/WorldCup-Interactive_Visualization/chart1.html)
 
 - **2️⃣ Visualization 2: Matchups Between World Cup Winners**
   * Description: A heatmap showing historical matchups between past World Cup winners.
